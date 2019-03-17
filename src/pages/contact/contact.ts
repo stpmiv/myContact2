@@ -6,7 +6,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'contact.html'
 })
 export class ContactPage {
-
+  items = ["Sathaporn","nana","papa","naja","naka","juju"];
   constructor(public navCtrl: NavController) {
 
   }
